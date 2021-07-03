@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ChosunSg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunSg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'ChosunSg';
+}
+
+/* 사양 목록 */
+#top{
+    background-color: #6478ab;
+    /* background-color: #589bb6; */
+    color: #fff;
+    line-height: 75px;
+    font-size: 55px;
+    text-align: center;
+}
+div#list{
+    /* text-align: center; */
+    margin:0 auto;
+    height: 1050px;
+	width: 1000px;
+}
+div#list>p{
+    background-color: #94bfcf;
+    color: #fff;
+    box-sizing:content-box;
+    width:300px;
+    height:300px;
+    padding:10px;
+    text-align: center;
+    /* margin: 20px auto; */
+    /* justify-content: space-around; */
+    /* position: absolute; */
+    font-size: 150px;
+    vertical-align: middle;
+}
+div#list>p>a{
+    text-decoration-line : none;
+    color: #fff;
+    font-size: 45px;
+    vertical-align: middle;
+}
+.box_01 {
+    /* margin:0 auto; */
+    float:left;
+    width: 500px;
+}
+.box_02{
+    /* margin:0 auto; */
+    float:right;
+}
+.box_03{
+    clear: both;
+    margin-left: 340px;
+}
+.box_04{
+    float:left;
+}
+.box_05{
+    float:right;
+}
+
+/* 사양 설명 */
+h2{
+    background-color: #828daa;
+    color: #fff;
+    line-height: 65px;
+    font-size: 43px;
+    text-align: center;
+}
+
+span{
+    color:#6f7fa7;
+    font-weight: 900;
+}
+div#contents{
+    font-size: 23px;
+    text-align: center;
+    /* font-weight: 100; */
+}
+div#contents>p{
+    padding-left: 10px;
+}
+div#contents>p>a{
+    font-size: 18px;
+}

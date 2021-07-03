@@ -1,0 +1,81 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ChosunSg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunSg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 노트북 설명(가격대별) */
+*{
+    font-family: 'ChosunSg';
+}
+
+h1{
+    background-color: #6478ab;
+    color: #fff;
+    line-height: 65px;
+    font-size: 30px;
+    text-align: center;
+}
+div#list{
+    padding-top: 30px;
+}
+div#list>p{
+    background-color: #b1cbd4;
+    color: #fff;
+    text-align: center;
+}
+div#list>p>a{
+    text-decoration-line : none;
+    color: #fff;
+    font-size: 25px;
+    line-height: 65px;
+}
+/* 가격대별 상세설명 */
+/* p { margin:20px 0px; } */
+h2{
+    font-size: 30px;
+    background-color: #828daa;
+    color: #fff;
+    text-align: center;
+    line-height: 52px;
+}
+div#detail{
+    padding-top: 50px;
+}
+div#detail>p{
+    padding-left: 20px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 23px;
+}
+div#detail>ul{
+    font-size: 20px;
+}
+div#detail>p>a{
+    font-size: 15px;
+}
+
+#price{
+    font-size: 30px;
+    background-color: #caced6;
+}
+#name{
+    font-size: 30px;
+}
+#contents{
+    font-size: 20px;
+}
+
+/* div#detail{
+    text-align: center;
+} */
+.card-title{
+    font-size: 30px;
+}
+.card {
+    float:none;
+     margin:0 auto;
+     margin-bottom: 10px;
+}
